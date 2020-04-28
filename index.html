@@ -1,24 +1,27 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+  <head>
+		<title>Anim</title>
+		
+    <!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script> -->
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <!-- <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script> -->
+	<script type="text/javascript" src="js/alphabet.js"></script
+	
+	
+  </head>
+  <body>
+    <canvas id="myCanvas" style="border:1px solid"></canvas>
+    <!-- <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/bubbles.js"></script> -->
+	<script type="text/javascript" src="js/bubbles.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
 
-<div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-  <h3>Игорь привет!!!</h3>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+http://www.cyberforum.ru/javascript/thread168005.html
+<style>
+		myCanvas{
+			border: 1px dashed black;
+		}
+	</style>
